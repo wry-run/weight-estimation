@@ -23,7 +23,7 @@ sudo apt install sagemath python3-seaborn
 The [BCH][BCH](n=33,d=5) code over F(2):
 
 ![weights](example/BCH_n33_d5_pOnes0.95_gain_vs_known.png "Estimated vs known weight distribution")
-![TVD](exampke/BCH_n33_d5_TVD.png "Total Variation Distance")
+![TVD](example/BCH_n33_d5_TVD.png "Total Variation Distance")
 
 
 ## References
