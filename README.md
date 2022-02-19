@@ -1,12 +1,14 @@
 # Linear code weight estimation by random bit stream compression
 
-Source to reproduce the work in our [arxiv paper](https://arxiv.org/abs/1806.02099).
+Source to reproduce the work in our [arxiv paper][arxiv].
 
 ## Usage
 
-`python3 BCH_generate.py` will save output from random sampling to `/data`.
-`python3 BCH_plot_vs_known.py` compares the estimated and known weight distribution directly.
-`python3 BCH_plot_TVD.py` measures the total variation distance between the estimates and known distribution.
+`python3 BCH_generate.py` will save output from random sampling to `./data`.
+
+`python3 BCH_plot_vs_known.py` compares the estimated and known [weight distribution][weight distribution] directly.
+
+`python3 BCH_plot_TVD.py` measures the [total variation distance][TVD] between the estimates and known distribution.
 
 
 ## Requirements
@@ -14,3 +16,18 @@ Source to reproduce the work in our [arxiv paper](https://arxiv.org/abs/1806.020
 ```bash
 sudo apt install sagemath python3-seaborn
 ```
+
+
+## Example
+
+The BCH(n=33,d=5) code:
+
+![weights](example/BCH_n33_d5_pOnes0.95_gain_vs_known.pdf "Estimated vs known weight distribution")
+![TVD](exampke/BCH_n33_d5_TVD.pdf "Total Variation Distance")
+
+
+## References
+
+[arxiv]: https://arxiv.org/abs/1806.02099
+[weight distribution]: https://en.wikipedia.org/wiki/Weight_enumerator
+[TVD]: https://en.wikipedia.org/wiki/Total_variation_distance_of_probability_measures
