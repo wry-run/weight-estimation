@@ -26,8 +26,6 @@ The [BCH][BCH](n=33,d=5) code over F(2):
 ![TVD](example/BCH_n33_d5_TVD.png "Total Variation Distance")
 
 
-## References
-
 [arxiv]: https://arxiv.org/abs/1806.02099
 [weight distribution]: https://en.wikipedia.org/wiki/Weight_enumerator
 [TVD]: https://en.wikipedia.org/wiki/Total_variation_distance_of_probability_measures
